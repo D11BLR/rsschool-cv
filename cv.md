@@ -5,16 +5,16 @@
 ![Альтернативный текст](./assets/7utwir2xiv8.CYXTO.jpg)    
 
 ## My contact info
+***
 
-
- Mail: d11.denis.d11@gmail.com
- Phone: +375 (44) 444-44-44
- GitHub: [D11BLR](https://github.com/D11BLR "don't push!")  
- VK: [Denis Lychkovsky](https://vk.com/denis_byhov "don't push!")   
+* Mail: d11.denis.d11@gmail.com
+* Phone: +375 (44) 444-44-44
+* GitHub: [D11BLR](https://github.com/D11BLR "don't push!")  
+* VK: [Denis Lychkovsky](https://vk.com/denis_byhov "don't push!")   
 
 
 ## About me
-
+***
 
 My name is Denis Lychkovsky.  
   
@@ -22,14 +22,14 @@ I am 24 years old. I live in Bykhov. I studied at the Belarusian - Russian unive
  
 
 ## Skills
+***
 
-
- Basic HTML  
- Basic CSS  
- Basic JS  
+* Basic HTML  
+* Basic CSS  
+* Basic JS  
 
 ## Code Example
-
+***
     function sum(a, b) {
       return a + b;
     }
@@ -38,14 +38,14 @@ I am 24 years old. I live in Bykhov. I studied at the Belarusian - Russian unive
     alert( result );
 
 ## Education
+***
 
-
-2015 - 2020  
+* 2015 - 2020  
  Belarusian - Russian university, Mogilev.  
  Department: "The electric drive and automation of industrial enterprises"
 
 ## Languages
+***
 
-
-Russian - Native  
-English – A2
+* Russian - Native  
+* English – A2
