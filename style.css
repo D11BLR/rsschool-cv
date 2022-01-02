@@ -1,0 +1,30 @@
+header {
+    background-color: black;
+    width: auto;
+    height: 100px;
+}
+
+.profile_header {
+    background-color: red;
+    width: 900px;
+    height: 200px;
+}
+
+main {
+    background-color: royalblue;
+    width: 650px;
+    height: auto;
+}
+
+aside {
+    background-color: seagreen;
+    width: 270px;
+    height: auto;
+
+}
+
+footer {
+    background-color: yellow;
+    width: 900px;
+    height: auto;
+}
