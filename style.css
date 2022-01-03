@@ -1,10 +1,38 @@
+html {
+    scroll-behavior: smooth; 
+  }
+
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
     margin: 0px;
     padding: 0px;
     background-color: #0b7DEE;
-    height: fit-content;
 }
 
+
+.nav-list {
+    border-radius: 20px;
+    margin: 0px;
+    border: 2px solid black;
+    background-color: wheat;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    text-decoration: none ;
+    padding: 0 20px;
+    line-height: 50px;
+    color: black;
+    font-family: system-ui;
+    font-weight: 600;
+    font-size: 15px;
+}
 
 
 .resume-box {
@@ -14,10 +42,11 @@ body {
 }
 
 main {
-    padding: 30px;
+    
 }
 
 .box-1 {
+    border-radius: 20px;
     background-color: #26252d;
     width: 35%;
     float: left;
@@ -25,6 +54,7 @@ main {
 }
 
 .box-2 {
+    border-radius: 30px;
     background-color: wheat;
     width: 60%;
     float: left;
@@ -199,5 +229,8 @@ p {
     margin-bottom: 20px;
 }
 
+footer {
+
+}
 
 
