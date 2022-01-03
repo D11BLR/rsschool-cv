@@ -9,13 +9,13 @@ header {
 
 
 body {
-    display: flex;
+    
     flex-direction: column;
     justify-content: space-between;
     min-height: 100vh;
     margin: 0px;
     padding: 0px;
-    background-color: #0b7DEE;
+    background-color: wheat;
 }
 
 
@@ -149,7 +149,7 @@ p {
 
 
 
-#progress1 {
+.progress1 {
     background-color: #333;
     border-radius: 13px;
     height: 16px;
@@ -157,7 +157,7 @@ p {
     padding: 3px;    
 }
 
-#progress2 {
+.progress2 {
     background-color: #333;
     border-radius: 13px;
     height: 16px;
@@ -165,7 +165,7 @@ p {
     padding: 3px;    
 }
 
-#progress3 {
+.progress3 {
     background-color: #333;
     border-radius: 13px;
     height: 16px;
@@ -173,7 +173,7 @@ p {
     padding: 3px;    
 }
 
-#progress4 {
+.progress4 {
     background-color: #333;
     border-radius: 13px;
     height: 16px;
@@ -181,7 +181,7 @@ p {
     padding: 3px;    
 }
 
-#progress5 {
+.progress5 {
     background-color: #333;
     border-radius: 13px;
     height: 16px;
@@ -189,7 +189,7 @@ p {
     padding: 3px;    
 }
 
-#progress6 {
+.progress6 {
     background-color: #333;
     border-radius: 13px;
     height: 16px;
@@ -198,7 +198,7 @@ p {
 }
 
 
-#progress1:after {
+.progress1:after {
     color: black;
     padding-left: 5px;
     padding-bottom: 3px;
@@ -211,7 +211,7 @@ p {
     width: 13%;   
 }
 
-#progress2:after {
+.progress2:after {
     color: black;
     padding-left: 5px;
     padding-bottom: 3px;
@@ -224,7 +224,7 @@ p {
     width: 15%;   
 }
 
-#progress3:after {
+.progress3:after {
     color: black;
     padding-left: 5px;
     padding-bottom: 3px;
@@ -237,7 +237,7 @@ p {
     width: 60%;   
 }
 
-#progress4:after {
+.progress4:after {
     color: black;
     padding-left: 5px;
     padding-bottom: 3px;
@@ -250,7 +250,7 @@ p {
     width: 55%;   
 }
 
-#progress5:after {
+.progress5:after {
     color: black;
     padding-left: 5px;
     padding-bottom: 3px;
@@ -263,7 +263,7 @@ p {
     width: 20%;   
 }
 
-#progress6:after {
+.progress6:after {
     color: black;
     padding-left: 5px;
     padding-bottom: 3px;
@@ -318,10 +318,6 @@ p {
     margin-top: -5px;
 }
 
-.content-2 {
-    
-}
-
 .head {
     color: #26252d;
     font-family: system-ui;
@@ -356,8 +352,30 @@ code {
     background-color: grey;
 }
 
-footer {
 
+
+
+
+main {
+    display: flex;
 }
 
-
+footer {
+    margin-top: 800px;
+    display: flex;
+    justify-content: center;
+    
+    }
+    
+    .foot_container {
+        flex-direction: column;
+        margin-left: 120px;
+        padding-bottom: 0px;
+    }
+    
+    .year_p {
+        color: black;
+        font-family: system-ui;
+        font-size: 24px;
+        font-weight: 800;
+    }
