@@ -13,14 +13,13 @@
 <header>
   <nav class="nav">
     <ul class="nav-list">
-      <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-      <li class="nav-item"><a href="#contacts" class="nav-link">Summary </a></li>
-      <li class="nav-item"><a href="#contacts" class="nav-link">Skills </a></li>
-      <li class="nav-item"><a href="#contacts" class="nav-link">Code </a></li>
-      <li class="nav-item"><a href="#contacts" class="nav-link">Courses </a></li>
-      <li class="nav-item"><a href="#contacts" class="nav-link">Projects </a></li>
-      <li class="nav-item"><a href="#contacts" class="nav-link">Education </a></li>
-      <li class="nav-item"><a href="#contacts" class="nav-link">English</a></li>
+      <li class="nav-item"><a href="#contacts_" class="nav-link">Contacts</a></li>
+      <li class="nav-item"><a href="#about_me_" class="nav-link">About Me </a></li>
+      <li class="nav-item"><a href="#skills_" class="nav-link">Skills </a></li>
+      <li class="nav-item"><a href="#code_" class="nav-link">Code </a></li>
+      <li class="nav-item"><a href="#projects_" class="nav-link">Projects </a></li>
+      <li class="nav-item"><a href="#education_" class="nav-link">Education </a></li>
+      <li class="nav-item"><a href="#languages_" class="nav-link">Languages</a></li>
     </ul>
   </nav>
 </header>
@@ -30,7 +29,9 @@
       <div class="box-1">
         <img src="./assets/7utwir2xiv8.CYXTO.jpg" class="profile" alt="Alt Text">
         <div class="content">
-        <H1>About ME</H1>
+
+        <div class="about-me" id="about_me_">
+          <h2>About ME</h2>
         <p>
           It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
           The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here,
@@ -41,22 +42,29 @@
          will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on
           purpose (injected humour and the like).
         </p>
+        </div>  
+        
 
-        <h1> Skills</h1>
-        <p>Grapic Design</p>
-        <div id="progress"></div>
 
-        <p>Grapic Design</p>
-        <div id="progress1"></div>
+        <div class="skills" id="skills_">
 
-        <p>Grapic Design</p>
-        <div id="progress2"></div>
+          <h2> Skills</h2>
+        <ul>
+          <li>Python </li>
+          <div id="progress1"></div>
+          <li>С++ </li>
+          <div id="progress2"></div>
+          <li>HTML</li>
+          <div id="progress3"></div>
+          <li>CSS</li>
+          <div id="progress4"></div>
+          <li>JS</li>
+          <div id="progress5"></div>
+          <li>Git, GitHub</li>
+          <div id="progress6"></div>
+        </ul>
+      </div>
 
-        <p>Grapic Design</p>
-        <div id="progress3"></div>
-
-        <p>Grapic Design</p>
-        <div id="progress4"></div>
 
       </div>
       </div>
@@ -66,36 +74,51 @@
             <h1> Denis Lychkovsky </h1>
             <hr class="hr"/>
             
-            <p class="intro-p">2132 Londob All Airports - LON, United Kingdom</p>
-            <p>Phone +375 (44) 444-44-44</p>
-            <p>email:</p>
+            <p class="intro-p" id="contacts_"> Location: <span>Bykhov, Belarus</span>  </p>
+            <p>Phone: <span>+375(44) 750-94-77</span></p>
+            <p>email: <span>d11.denis.d11@gmail.com</span> </p>
+            <p>GitHub: <a href="https://github.com/D11BLR" class="link_git">D11BLR</a></p>
+            <p>VK:<a href="https://vk.com/denis_byhov" class="link_git">Denis Lychkovsky</a> </p>
         </div>
 
-        <div class="content-2">
-          <h1 class="head">Experience</h1>
-          <p class="para-1">Ui Designer in Lorm Ipsum (2018 -Now) </p>
-          <p class="para-2">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
-          The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here,
-          content here', making it look like readable English.</p>
-
-        </div>
-
-        <div class="content-2">
-          <h1 class="head">Education</h1>
-          <p class="para-1">Ui Designer in Lorm Ipsum (2018 -Now) </p>
-          <p class="para-2">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
-          The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here,
-          content here', making it look like readable English.</p>
+        <div class="content-2" id="code_">
+          <h2 class="head">Code</h2>
+          <p class="para-1">Function sum "a" and "b" </p>
+          <p class="para-2"> <pre> <code>function sum(a, b) {
+            return a + b;
+          }
+          
+          let result = sum(1, 2);
+          alert( result );"</code> </pre></p>
 
         </div>
 
+        <div class="content-2" id="education_">
+          <h2 class="head">Education</h2>
+          <p class="para-1">Belarusian - Russian university, Mogilev. (2015 - 2020) </p>
+          <p class="para-2">Department: “The electric drive and automation of industrial enterprises”</p>
+        </div>
 
-      </div>
+        <div class="content-2" id="projects_">
+        <h2 class="head">Project</h2>
+        <p class="para-1"> My CV </p>
+        <p class="para-2"> <a href="https://d11blr.github.io/rsschool-cv/" class="link_proj">CV. HTML, CSS & Git Basics</a>  </p>
+        </div>
+
+        <div class="content-2" id="languages_">
+          <h2 class="head">Languages</h2>
+          <p class="para-2">Russian - Native</p>
+          <p class="para-2">English – A2</p>
+        </div>
+        
+        <div class="space_cr">  </div>
 
     </div>
   </main>
 
-  <footer>Подвал</footer>
+  <footer>в footer есть ссылка на гитхаб автора работы, год создания приложения, логотип курса со ссылкой на курс. Если ссылка в футере ведёт на курс stage0, это не ошибка.</footer>
+
+  
 
 </body>
 </html>
